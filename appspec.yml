@@ -4,6 +4,6 @@ files:
   - source: /
     destination: /webapps/Config
 hooks:
-  ApplicationStart:
+  BeforeInstall:
     - location: Scripts/S3Copy.sh
       timeout: 3600
