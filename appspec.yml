@@ -1,9 +1,0 @@
-version: 0.0
-os: linux
-files:
-  - source: /src
-    destination: /webapp
-hooks:
-  AfterInstall:
-    - location: Scripts/S3Copy.sh
-      timeout: 3600
