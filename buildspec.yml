@@ -3,14 +3,8 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo install httpd
-      - apt-get update -y
-      - apt-get install -y apache2 curl
-  pre_build:
-    commands:
-      - echo start httpd
-      - /etc/init.d/apache2 restart
+      - echo install 
+      - pip install feedparser
   build:
     commands:
-      - echo curl localhost
-      - curl localhost:80
+      - echo start get-devio-rss.py
