@@ -2,13 +2,13 @@ version: 0.2
 
 env:
   variables:
-    buildspec-yml-env: "This param is from buildspec.yml"
+    buildspec_yml_env: "This param is from buildspec.yml"
 #  parameter-store:
 #    parameter-store-env: "parameter-store-env"
 phases:
   build:
     commands:
-      - echo buildspec-yml-env:aaaa
+      - echo buildspec_yml_env:${buildspec_yml_env}
 #      - echo parameter-store-env:${parameter-store-env}
 #      - echo parameter-store-env2:${parameter-store-env2}
 #      - echo project-env:${project-env}
