@@ -8,7 +8,7 @@ env:
 phases:
   build:
     commands:
-      - echo buildspec-yml-env:${buildspec-yml-env}
+      - echo buildspec-yml-env:aaaa
 #      - echo parameter-store-env:${parameter-store-env}
 #      - echo parameter-store-env2:${parameter-store-env2}
 #      - echo project-env:${project-env}
