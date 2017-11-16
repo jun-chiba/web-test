@@ -11,7 +11,7 @@ phases:
       - echo buildspec_yml_env:${buildspec_yml_env}
       - echo parameter_store_env:${parameter_store_env}
       - echo parameter_store_env2:${parameter_store_env2}
-      - echo project-env:${project-env}
+      - echo project_env:${project_env}
       - echo AWS_ACCOUNT_ID:${AWS_ACCOUNT_ID}
       - echo IMAGE_REPO_NAME:${IMAGE_REPO_NAME}
       - echo IMAGE_TAG:${IMAGE_TAG}
