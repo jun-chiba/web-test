@@ -8,3 +8,4 @@ phases:
   build:
     commands:
       - echo start get-devio-rss.py
+      - python get-devio-rss.py
