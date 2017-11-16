@@ -7,6 +7,7 @@ env:
     parameter-store-env: "parameter-store-env"
 build:
   commands:
+    - date
     - echo buildspec-yml-env:${buildspec-yml-env}
     - echo parameter-store-env:${parameter-store-env}
     - echo parameter-store-env2:${parameter-store-env2}
