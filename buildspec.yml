@@ -4,13 +4,13 @@ env:
   variables:
     buildspec_yml_env: "This param is from buildspec.yml"
   parameter-store:
-    parameter_store_env: "parameter-store-env"
+    parameter_store_env: "parameter_store_env"
 phases:
   build:
     commands:
       - echo buildspec_yml_env:${buildspec_yml_env}
-      - echo parameter_store_env:${parameter_store_env}
-#      - echo parameter-store-env2:${parameter-store-env2}
+#      - echo parameter_store_env:${parameter_store_env}
+      - echo parameter_store_env2:${parameter_store_env2}
 #      - echo project-env:${project-env}
 #      - echo AWS_ACCOUNT_ID:${AWS_ACCOUNT_ID}
 #      - echo IMAGE_REPO_NAME:${IMAGE_REPO_NAME}
