@@ -5,7 +5,7 @@ env:
     buildspec-yml-env: "This param is from buildspec.yml"
   parameter-store:
     parameter-store-env: "parameter-store-env"
-phases
+phases:
   build:
     commands:
       - echo buildspec-yml-env:${buildspec-yml-env}
